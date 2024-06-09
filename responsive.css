@@ -9,6 +9,7 @@
     }
 
     /* main */
+  
     .info {
         align-items: center;
     }
@@ -18,11 +19,11 @@
     }
 
     #input-email {
-        width: 280px;
+        width: 295px;
     }
 
     .input-btn {
-        width: 170px;
+        width: 185px;
     }
 
     .data h1 {
@@ -45,6 +46,10 @@
         padding: 50px 50px 30px;
     }
 
+    nav ul {
+        gap: 55px;
+    }
+
     /* main */
     .container {
         gap: 200px;
@@ -65,6 +70,10 @@
 
     .two {
         padding: 130px 50px;
+            background: url(images/bg-curve-desktop.svg) no-repeat;
+            background-size: 341% 100%;
+            background-position: center;
+        
     }
 
     .form form {
@@ -85,7 +94,7 @@
     }
 
     .review {
-        width: 392px;
+        width: 365px;
     }
 
     .three {
@@ -115,6 +124,7 @@
     #footer {
         justify-content: space-between;
         flex-direction: row;
+        align-items: baseline;
     }
 
     .footer {
@@ -129,7 +139,7 @@
 @media screen and (width>=1100px) {
     /* header */
     header {
-        padding: 50px 80px 30px;
+        padding: 50px 100px 30px;
     }
 
     /* main */
@@ -138,21 +148,21 @@
     }
 
     .two {
-        padding: 130px 80px;
+        padding: 160px 80px;
     }
 
     .info {
-        width: 550px;
+        /* width: 550px; */
         align-items: baseline;
     }
 
-    .img {
-        width: 500px;
-    }
+    /* .img { */
+        /* width: 500px; */
+    /* } */
 
     .three {
         padding: 100px 70px;
-        grid-template-columns: 500px 335px;
+        grid-template-columns: 500px 340px;
         /* gap: 170px; */
     }
 
@@ -160,13 +170,13 @@
         width: 340px !important;
     }
 
-    .paras {
-        width: 530px;
+    footer {
+        padding: 90px 70px ;
     }
 }
 
 
-@media screen and (width>=1300px) {
+@media screen and (width>=1330px) {
 
     /* header */
     .info {
@@ -175,6 +185,14 @@
 
     .info.data {
         width: 660px;
+    }
+
+    .card {
+        grid-template-columns: 50% 50%;
+    }
+
+    .card.one {
+        gap: 0;
     }
 
     .p1 {
@@ -186,11 +204,15 @@
     }
 
     .input-email {
-        width: 350px !important;
+        width: 380px !important;
+    }
+
+    .paras {
+        width: 530px;
     }
 
     .three {
-        grid-template-columns: 490px 350px;
+        grid-template-columns: 490px 380px;
         text-align: left;
     }
 }

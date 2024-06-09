@@ -95,7 +95,7 @@ nav ul li {
 }
 
 .info.data {
-    gap: 10px;
+    gap: 13px;
 }
 
 .info.data h1 {
@@ -104,12 +104,13 @@ nav ul li {
 
 .info h1,
 h2 {
-    font-family: var(--heading)
+    font-family: var(--heading);
+    line-height: 1.5;
 }
 
 .info p {
     font-family: var(--body);
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 /* card-1 */
@@ -130,7 +131,7 @@ h2 {
 }
 
 #input-email {
-    padding: 8px 18px 8px 12px;
+    padding: 10px 12px 10px 18px;
     color: hsl(0deg 0.45% 60.94%);
     border-radius: 3px;
     font-size: 15px;
@@ -150,7 +151,7 @@ h2 {
     transition: all 0.3s ease-in;
     cursor: pointer;
     box-shadow: 0px 0px 3px 2px hsl(240deg 8.23% 91.56%);
-    padding: 12px 25px;
+    padding: 10px 25px;
 }
 
 .form2 .input-btn {
@@ -194,9 +195,6 @@ h2 {
     color: var(--Moderate_Cyan);
     align-items: center;
     cursor: pointer;
-}
-
-.link p {
     transition: all 0.3s ease-in;
     padding-bottom: 4px;
     border-bottom: 1px solid var(--Moderate_Cyan);
@@ -218,10 +216,15 @@ h2 {
     margin-top: 30px;
 }
 
+.review p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 .author {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 18px;
     font-family: var(--body);
 }
 
@@ -252,13 +255,14 @@ h2 {
     text-align: center;
 }
 
-.access h2 {
+.access h1 {
     margin-bottom: 18px;
 }
 
 .access p {
-    color: var(--Light_Gray);
-    font-weight: 500;
+    color: white;
+    line-height: 1.5;
+    /* font-weight: 500; */
 }
 
 .form2 #input-email {
@@ -306,7 +310,7 @@ footer {
 
 .foot ul li {
     list-style-type: none;
-    line-height: 1.8;
+    line-height: 2;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }

@@ -21,6 +21,10 @@ function validateEmail(index) {
         errors[index].style.display = 'none';
         input[index].value = '';
         input[index].style.borderColor = 'hsl(0, 0%, 75%)';
+        if (index === 1) {
+            input[index].style.border = 'none';
+
+        }
     } else {
         console.log('wrong');
         errors[index].style.display = 'block';
