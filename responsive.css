@@ -1,0 +1,196 @@
+@media screen and (width>=550px) {
+    /* header */
+    nav img {
+        height: 50px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    /* main */
+    .info {
+        align-items: center;
+    }
+
+    .form form {
+        flex-direction: row !important;
+    }
+
+    #input-email {
+        width: 280px;
+    }
+
+    .input-btn {
+        width: 170px;
+    }
+
+    .data h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (width>=768px) {
+    /* footer */
+    .footer {
+        gap: 75px;
+        /* grid-template-columns: 225px 140px 140px 178px; */
+        grid-template-columns: 35% 22% 22%;
+    }
+}
+
+@media screen and (width>=900px) {
+    /* header */
+    header {
+        padding: 50px 50px 30px;
+    }
+
+    /* main */
+    .container {
+        gap: 200px;
+    }
+
+    .card {
+        grid-template-columns: 50% 45%;
+    }
+
+    .card.one,
+    .card.two {
+        grid-template-areas: 'info image';
+    }
+
+    .one {
+        padding: 0 50px;
+    }
+
+    .two {
+        padding: 130px 50px;
+    }
+
+    .form form {
+        justify-content: flex-start;
+    }
+
+    .info {
+        text-align: left;
+        align-items: baseline;
+    }
+
+    .info h1 {
+        font-size: 40px;
+    }
+
+    .link {
+        margin: 0;
+    }
+
+    .review {
+        width: 392px;
+    }
+
+    .three {
+        grid-template-columns: 50% 315px;
+        text-align: left;
+        padding: 100px 70px;
+        /* gap: 120px; */
+    }
+
+    .form.form2 form {
+        flex-direction: column !important;
+    }
+
+    .form.form2 .input-btn {
+        width: 175px;
+    }
+
+    .input-email {
+        width: 300px !important;
+    }
+
+    /* footer */
+    footer {
+        padding: 70px;
+    }
+
+    #footer {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer {
+        gap: 15px;
+        width: 100%;
+        grid-template-columns: 45% 25% 25%;
+    }
+
+}
+
+
+@media screen and (width>=1100px) {
+    /* header */
+    header {
+        padding: 50px 80px 30px;
+    }
+
+    /* main */
+    .one {
+        padding: 0 80px;
+    }
+
+    .two {
+        padding: 130px 80px;
+    }
+
+    .info {
+        width: 550px;
+        align-items: baseline;
+    }
+
+    .img {
+        width: 500px;
+    }
+
+    .three {
+        padding: 100px 70px;
+        grid-template-columns: 500px 335px;
+        /* gap: 170px; */
+    }
+
+    .input-email {
+        width: 340px !important;
+    }
+
+    .paras {
+        width: 530px;
+    }
+}
+
+
+@media screen and (width>=1300px) {
+
+    /* header */
+    .info {
+        width: 590px;
+    }
+
+    .info.data {
+        width: 660px;
+    }
+
+    .p1 {
+        width: 530px;
+    }
+
+    .img {
+        width: auto;
+    }
+
+    .input-email {
+        width: 350px !important;
+    }
+
+    .three {
+        grid-template-columns: 490px 350px;
+        text-align: left;
+    }
+}
